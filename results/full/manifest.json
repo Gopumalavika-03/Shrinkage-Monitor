@@ -1,0 +1,159 @@
+{
+  "seed": 20261022,
+  "size": "full",
+  "combined_sha256": "1c9cfea792c933694e019e9aa4bf81ee9ede639e042e3face86213e064d7fc16",
+  "files": {
+    "alerts/csv/alert_evidence.csv": {
+      "rows": 629,
+      "sha256": "ab28cf359adbef5bdd3a2ab154eaa25bf16c7563c998ed559142f62eae4ff47a"
+    },
+    "alerts/csv/investigation.csv": {
+      "rows": 93,
+      "sha256": "38d788c37b40ef0606048ad5db194612c21f9ff845caa7ecc9b9ae0909ca00f3"
+    },
+    "alerts/csv/shrinkage_alert.csv": {
+      "rows": 93,
+      "sha256": "2681a25e3734d3fabb897ff6f8fd87b159645fbc915e94aa3b93cf47061cc0e1"
+    },
+    "alerts/json/alert_evidence.jsonl": {
+      "rows": 629,
+      "sha256": "4c2fedf2afc840cdace197990dee2d18e211d487c6b8b1fb29dc5546825ab553"
+    },
+    "alerts/json/investigation.jsonl": {
+      "rows": 93,
+      "sha256": "4d2c80d8b34ddf2d2bddc79d5e0f9ac124c4b364f69f3f5763756552e5e5f79c"
+    },
+    "alerts/json/shrinkage_alert.jsonl": {
+      "rows": 93,
+      "sha256": "a0353e92114193763ed13f4cdeb678adfea6f249fa405748c96671cc955ff241"
+    },
+    "data/csv/customer_return.csv": {
+      "rows": 40000,
+      "sha256": "39310a1d1d14b483b11f238e7915e7281502b25617e4527f4543eaa772a73c5c"
+    },
+    "data/csv/cycle_count.csv": {
+      "rows": 20000,
+      "sha256": "5628bcf600e7cd65b914c66c7bd46b7965926672b30909bd83b2488f0fff589c"
+    },
+    "data/csv/employee.csv": {
+      "rows": 1400,
+      "sha256": "fdd8b760e048136894fe043ec6a787153f1843b9c8dd2546c0691a06674d5468"
+    },
+    "data/csv/employee_role.csv": {
+      "rows": 1700,
+      "sha256": "962fb2c89d9c0e583121a9fc12eb7b27e967699e893941b7be11867b9b7efcef"
+    },
+    "data/csv/inventory_movement.csv": {
+      "rows": 1003375,
+      "sha256": "db1de63747f6858a5dbd19c7b4d20a7d7b8caace21e779ef54b9293b3045a19e"
+    },
+    "data/csv/promotion.csv": {
+      "rows": 40,
+      "sha256": "798b3f01fa9f7d058c12a4b0bc514c5887f5c34c901886a5358c98271386d2ff"
+    },
+    "data/csv/promotion_sku.csv": {
+      "rows": 3612,
+      "sha256": "3f03fea76a47ffe8977128d8aa91a34cbb7e444a25b152a28b4a65dbce020ed7"
+    },
+    "data/csv/role.csv": {
+      "rows": 4,
+      "sha256": "0f0001d47ccb87a2cde51884d882d4b158fd76747e0187053ad760c962a04106"
+    },
+    "data/csv/shift.csv": {
+      "rows": 54300,
+      "sha256": "bae4ff5a53d2958d2813c2aaa15cb9e140deb51369d985d5c1d3b5134047a3b2"
+    },
+    "data/csv/shift_assignment.csv": {
+      "rows": 162900,
+      "sha256": "676c9d4d8ef7a7031539b9596159177d533ebe2228f47c4fcf136e52b9e695cd"
+    },
+    "data/csv/sku.csv": {
+      "rows": 5000,
+      "sha256": "049f91dbb0b1e93ee987414505b56e63e405a59561c74d63a11fd6a298b376bd"
+    },
+    "data/csv/store.csv": {
+      "rows": 100,
+      "sha256": "2bc60579b826cc96e04e4e18c668518c44dc46cfd10d14d3b8a25ba2c517c663"
+    },
+    "data/csv/store_sku.csv": {
+      "rows": 60000,
+      "sha256": "98382294e209c8b5d6a049d04700abb106fe9b4748fa9e35230a2d14f3f68923"
+    },
+    "data/csv/transfer.csv": {
+      "rows": 30000,
+      "sha256": "81cb8e4ab678c8c812439389a4380c52e9eb44a199c7663a747c67da33275600"
+    },
+    "data/json/customer_return.jsonl": {
+      "rows": 40000,
+      "sha256": "b60e6e8d1b65392f04f232519efe9416193cb0cf50b2adb5a79060cd68fa833e"
+    },
+    "data/json/cycle_count.jsonl": {
+      "rows": 20000,
+      "sha256": "994bc6740aa80d124401907b2e9747ad0cd908150574c90497ccb4b2e685914f"
+    },
+    "data/json/employee.jsonl": {
+      "rows": 1400,
+      "sha256": "7dcfb4995177e9f26c386b0e15ca8b52b101e1eb77408add80cab3744cfbe74c"
+    },
+    "data/json/employee_role.jsonl": {
+      "rows": 1700,
+      "sha256": "98c70a839624359b8b2b95b65ffa5a6485b1323f33a5cb327355021e26e8be46"
+    },
+    "data/json/inventory_movement.jsonl": {
+      "rows": 1003375,
+      "sha256": "f2f4527d56d98ae4f850de01b10a2daacb2b066f043c108fd0a94568c87aa3c1"
+    },
+    "data/json/promotion.jsonl": {
+      "rows": 40,
+      "sha256": "d6dfad459446bb90759bffd721a3ea6bfa02c22b2a7cd52eb87a6b899d0933bc"
+    },
+    "data/json/promotion_sku.jsonl": {
+      "rows": 3612,
+      "sha256": "6d64de2ea892e7d5f4622bd114d7e3ccb1a9a94f420351ed2e77b954f5866f62"
+    },
+    "data/json/role.jsonl": {
+      "rows": 4,
+      "sha256": "abb02e6a977990ae08b36ea07bef98f7c5574efa706f0906140401ba7108f34d"
+    },
+    "data/json/shift.jsonl": {
+      "rows": 54300,
+      "sha256": "a87f109cec39286a14b4d19efe1217a43db7d5212b34f06eba35a0d480c7d7e5"
+    },
+    "data/json/shift_assignment.jsonl": {
+      "rows": 162900,
+      "sha256": "71a6de5fe94a5ea3fd4d9b6fd62eea23858318c6af294dfa1b20768de78235d8"
+    },
+    "data/json/sku.jsonl": {
+      "rows": 5000,
+      "sha256": "b99034e54addc277749c40cc07a29d6f5d2f48e165e56e32f6512275cedb816b"
+    },
+    "data/json/store.jsonl": {
+      "rows": 100,
+      "sha256": "b832743f16b8083b155965f6b2fb5c3e458b9e4d4988b1fe1ee08b9359e25628"
+    },
+    "data/json/store_sku.jsonl": {
+      "rows": 60000,
+      "sha256": "ad0c0cbdd8cf13e6703f8bba9c4e04f46555d9060d67e1ce45f24fff3810d88d"
+    },
+    "data/json/transfer.jsonl": {
+      "rows": 30000,
+      "sha256": "b5f288a958e455b9c9b305681a4afaa9cc9fee77577751c082b1b866f2e66fb6"
+    },
+    "ground_truth/csv/anomalies.csv": {
+      "rows": 96,
+      "sha256": "ee3a9851a5aec85f304b1962ca40039394b7bbe307f841dd4880e6638a806e0c"
+    },
+    "ground_truth/json/anomalies.jsonl": {
+      "rows": 96,
+      "sha256": "480b5c8b5d6c28850a7d7c729ddbdb2219db138b797d963b5d7fec8605b45cf2"
+    },
+    "reports/evaluation.json": {
+      "rows": null,
+      "sha256": "3b95301e1e1611c85ccb628c62e7a9a82056140514518fd2dacaa58f13791a72"
+    },
+    "reports/validation_summary.json": {
+      "rows": null,
+      "sha256": "085e7b52ac3d5cfa57cc7674445c6ef24d12d8db4d913a885fcec76b9a831981"
+    }
+  }
+}

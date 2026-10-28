@@ -1,0 +1,40 @@
+investigation_id,alert_id,store_id,assigned_employee_id,investigation_type,priority,status,opened_ts,recommended_action
+INV-2026-000001,SHR-2026-000001,STORE-000003,EMP-000042,PROCESS_COACHING,MEDIUM,OPEN,2026-01-12 07:24:02,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000002,SHR-2026-000002,STORE-000005,EMP-000070,PROCESS_COACHING,MEDIUM,OPEN,2026-01-17 22:48:40,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000003,SHR-2026-000003,STORE-000004,EMP-000056,DATA_CORRECTION,LOW,OPEN,2026-01-23 09:04:27,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000004,SHR-2026-000004,STORE-000005,EMP-000070,DATA_CORRECTION,MEDIUM,OPEN,2026-01-29 09:57:20,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000005,SHR-2026-000005,STORE-000005,EMP-000070,DATA_CORRECTION,MEDIUM,OPEN,2026-02-03 05:54:42,Reverse the sending store's duplicate write-off; confirm with the carrier which store bears the loss.
+INV-2026-000006,SHR-2026-000006,STORE-000001,EMP-000014,DATA_CORRECTION,MEDIUM,OPEN,2026-02-04 09:46:54,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000007,SHR-2026-000007,STORE-000002,EMP-000028,DATA_CORRECTION,MEDIUM,OPEN,2026-02-04 10:35:30,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000008,SHR-2026-000008,STORE-000001,EMP-000014,PROCESS_COACHING,MEDIUM,OPEN,2026-02-07 07:43:20,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000009,SHR-2026-000009,STORE-000002,EMP-000028,DATA_CORRECTION,MEDIUM,OPEN,2026-02-28 10:35:58,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000010,SHR-2026-000010,STORE-000001,EMP-000014,DATA_CORRECTION,LOW,OPEN,2026-03-02 09:14:24,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000011,SHR-2026-000011,STORE-000002,EMP-000028,DATA_CORRECTION,LOW,OPEN,2026-03-12 09:41:46,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000012,SHR-2026-000012,STORE-000003,EMP-000042,DATA_CORRECTION,MEDIUM,OPEN,2026-03-20 13:04:54,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000013,SHR-2026-000013,STORE-000002,EMP-000028,DATA_CORRECTION,LOW,OPEN,2026-03-26 09:54:58,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000014,SHR-2026-000014,STORE-000004,EMP-000056,DATA_CORRECTION,LOW,OPEN,2026-03-28 09:29:26,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000015,SHR-2026-000015,STORE-000004,EMP-000056,DATA_CORRECTION,MEDIUM,OPEN,2026-04-02 05:43:58,Reverse the sending store's duplicate write-off; confirm with the carrier which store bears the loss.
+INV-2026-000016,SHR-2026-000016,STORE-000005,EMP-000070,DATA_CORRECTION,MEDIUM,OPEN,2026-04-04 15:58:54,Reverse the sending store's duplicate write-off; confirm with the carrier which store bears the loss.
+INV-2026-000017,SHR-2026-000017,STORE-000003,EMP-000042,DATA_CORRECTION,LOW,OPEN,2026-04-07 09:27:08,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000018,SHR-2026-000018,STORE-000003,EMP-000042,DATA_CORRECTION,LOW,OPEN,2026-04-10 09:04:15,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000019,SHR-2026-000019,STORE-000003,EMP-000042,DATA_CORRECTION,MEDIUM,OPEN,2026-04-15 13:10:24,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000020,SHR-2026-000020,STORE-000001,EMP-000014,PROCESS_COACHING,MEDIUM,OPEN,2026-04-19 07:23:30,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000021,SHR-2026-000021,STORE-000001,EMP-000014,DATA_CORRECTION,MEDIUM,OPEN,2026-04-24 11:11:27,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000022,SHR-2026-000022,STORE-000002,EMP-000028,PROCESS_COACHING,MEDIUM,OPEN,2026-04-25 04:02:52,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000023,SHR-2026-000023,STORE-000003,EMP-000042,DATA_CORRECTION,MEDIUM,OPEN,2026-04-25 09:05:32,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000024,SHR-2026-000024,STORE-000004,EMP-000056,DATA_CORRECTION,MEDIUM,OPEN,2026-04-28 12:46:56,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000025,SHR-2026-000025,STORE-000001,EMP-000014,PROCESS_COACHING,MEDIUM,OPEN,2026-05-02 08:01:48,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000026,SHR-2026-000026,STORE-000005,EMP-000070,DATA_CORRECTION,LOW,OPEN,2026-05-08 09:54:47,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000027,SHR-2026-000027,STORE-000005,EMP-000070,PROCESS_COACHING,MEDIUM,OPEN,2026-05-09 01:34:08,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000028,SHR-2026-000028,STORE-000002,EMP-000028,DATA_CORRECTION,LOW,OPEN,2026-05-11 09:51:39,Recount the item; freeze book stock at the moment counting starts.
+INV-2026-000029,SHR-2026-000029,STORE-000001,EMP-000014,PROCESS_COACHING,MEDIUM,OPEN,2026-05-13 02:43:12,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000030,SHR-2026-000030,STORE-000005,EMP-000070,LOSS_PREVENTION,HIGH,OPEN,2026-05-20 10:06:09,"Recount the listed SKUs, review POS voids and CCTV around the last-handled movements, interview the employee."
+INV-2026-000031,SHR-2026-000031,STORE-000002,EMP-000028,PROCESS_COACHING,MEDIUM,OPEN,2026-05-23 11:58:47,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000032,SHR-2026-000032,STORE-000005,EMP-000070,DATA_CORRECTION,MEDIUM,OPEN,2026-06-02 10:20:30,Reverse the sending store's duplicate write-off; confirm with the carrier which store bears the loss.
+INV-2026-000033,SHR-2026-000033,STORE-000001,EMP-000014,PROCESS_COACHING,MEDIUM,OPEN,2026-06-14 00:44:38,Get the reason from the employee and post it as a new annotated entry; coach on mandatory reason codes.
+INV-2026-000034,SHR-2026-000034,STORE-000004,EMP-000056,LOSS_PREVENTION,HIGH,OPEN,2026-06-23 10:06:00,"Recount the listed SKUs, review POS voids and CCTV around the last-handled movements, interview the employee."
+INV-2026-000035,SHR-2026-000035,STORE-000005,EMP-000070,DATA_CORRECTION,MEDIUM,OPEN,2026-06-25 16:51:45,Reverse the sending store's duplicate write-off; confirm with the carrier which store bears the loss.
+INV-2026-000036,SHR-2026-000036,STORE-000005,EMP-000070,DATA_CORRECTION,MEDIUM,OPEN,2026-06-27 09:18:13,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.
+INV-2026-000037,SHR-2026-000037,STORE-000002,EMP-000028,LOSS_PREVENTION,HIGH,OPEN,2026-06-27 16:41:03,Check CCTV and the damaged-goods bin for the listed shifts; require supervisor sign-off on this employee's write-offs.
+INV-2026-000038,SHR-2026-000038,STORE-000003,EMP-000042,LOSS_PREVENTION,HIGH,OPEN,2026-06-29 09:24:02,Check CCTV and the damaged-goods bin for the listed shifts; require supervisor sign-off on this employee's write-offs.
+INV-2026-000039,SHR-2026-000039,STORE-000005,EMP-000070,DATA_CORRECTION,MEDIUM,OPEN,2026-06-30 13:12:02,Re-book the movement to the shift's store with a correcting entry; check the delivery paperwork.

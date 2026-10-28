@@ -1,0 +1,103 @@
+{
+  "per_type": [
+    {
+      "anomaly_type": "WRONG_STORE",
+      "unit": "MOVEMENT",
+      "planted": 25,
+      "flagged": 25,
+      "tp": 25,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "MISSING_REASON",
+      "unit": "MOVEMENT",
+      "planted": 25,
+      "flagged": 25,
+      "tp": 25,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "COUNT_BEFORE_MOVEMENTS",
+      "unit": "CYCLE_COUNT",
+      "planted": 25,
+      "flagged": 25,
+      "tp": 25,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "TRANSFER_DOUBLE_LOSS",
+      "unit": "TRANSFER",
+      "planted": 10,
+      "flagged": 10,
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "REPEATED_ADJUSTMENTS",
+      "unit": "EMPLOYEE",
+      "planted": 4,
+      "flagged": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "anomaly_type": "UNEXPLAINED_LOSS",
+      "unit": "EMPLOYEE",
+      "planted": 4,
+      "flagged": 4,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ],
+  "overall": {
+    "tp": 93,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "innocent_checks": {
+    "decoy_damage_event_rows": 166,
+    "decoy_rows_in_theft_alerts": 0,
+    "damaged_return_writeoffs": 7945,
+    "damaged_return_writeoffs_in_theft_alerts": 0,
+    "honest_transit_losses": 575,
+    "honest_transit_losses_flagged": 0,
+    "honest_large_count_shortages": 181,
+    "honest_large_shortages_in_theft_alerts": 1
+  },
+  "alerts_by_classification": {
+    "DATA_ERROR": 60,
+    "PROCESS_ERROR": 25,
+    "SUSPECTED_THEFT": 8
+  },
+  "alerts_by_severity": {
+    "MEDIUM": 61,
+    "LOW": 24,
+    "HIGH": 8
+  }
+}

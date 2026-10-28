@@ -1,0 +1,29 @@
+{
+  "seed": 20261022,
+  "size": "full",
+  "files_compared": 38,
+  "identical": true,
+  "differences": [],
+  "combined_sha256_run_a": "1c9cfea792c933694e019e9aa4bf81ee9ede639e042e3face86213e064d7fc16",
+  "combined_sha256_run_b": "1c9cfea792c933694e019e9aa4bf81ee9ede639e042e3face86213e064d7fc16",
+  "row_counts": {
+    "alerts/csv/alert_evidence.csv": 629,
+    "alerts/csv/investigation.csv": 93,
+    "alerts/csv/shrinkage_alert.csv": 93,
+    "data/csv/customer_return.csv": 40000,
+    "data/csv/cycle_count.csv": 20000,
+    "data/csv/employee.csv": 1400,
+    "data/csv/employee_role.csv": 1700,
+    "data/csv/inventory_movement.csv": 1003375,
+    "data/csv/promotion.csv": 40,
+    "data/csv/promotion_sku.csv": 3612,
+    "data/csv/role.csv": 4,
+    "data/csv/shift.csv": 54300,
+    "data/csv/shift_assignment.csv": 162900,
+    "data/csv/sku.csv": 5000,
+    "data/csv/store.csv": 100,
+    "data/csv/store_sku.csv": 60000,
+    "data/csv/transfer.csv": 30000,
+    "ground_truth/csv/anomalies.csv": 96
+  }
+}

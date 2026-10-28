@@ -1,0 +1,9 @@
+promotion_id,promotion_name,start_date,end_date,discount_pct
+PRM-2026-0001,Mega Pantry Week #1,2026-01-13,2026-01-23,25
+PRM-2026-0002,Health Week #2,2026-02-03,2026-02-22,15
+PRM-2026-0003,Holi Specials #3,2026-02-08,2026-02-15,20
+PRM-2026-0004,Mega Pantry Week #4,2026-02-16,2026-02-26,15
+PRM-2026-0005,Monsoon Deals #5,2026-03-12,2026-03-22,15
+PRM-2026-0006,Summer Cool #6,2026-03-23,2026-04-04,10
+PRM-2026-0007,Clearance Days #7,2026-04-24,2026-05-11,30
+PRM-2026-0008,Back to School #8,2026-06-09,2026-06-21,10

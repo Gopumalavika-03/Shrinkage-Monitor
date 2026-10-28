@@ -1,0 +1,1642 @@
+{
+  "row_counts": {
+    "store": 50,
+    "sku": 2500,
+    "role": 4,
+    "employee": 700,
+    "employee_role": 850,
+    "shift": 27150,
+    "shift_assignment": 81450,
+    "promotion": 20,
+    "promotion_sku": 785,
+    "store_sku": 15000,
+    "transfer": 15000,
+    "inventory_movement": 501926,
+    "customer_return": 20000,
+    "cycle_count": 10000,
+    "shrinkage_alert": 47,
+    "alert_evidence": 664,
+    "investigation": 47
+  },
+  "integrity_passed": true,
+  "stock_equation_totals": {
+    "opening": 481361,
+    "receipts": 599886,
+    "sales": -631982,
+    "transfers_in": 178838,
+    "transfers_out": -178838,
+    "returns": 26487,
+    "adjustments": -31885,
+    "adjustments_by_reason": {
+      "COUNT_VARIANCE": -1927,
+      "DAMAGE": -18053,
+      "DAMAGED_RETURN": -5167,
+      "EXPIRED": -3741,
+      "FOUND": 2293,
+      "MISCOUNT": -1372,
+      "TRANSIT_LOSS": -3905,
+      "MISSING": -13
+    },
+    "closing_book": 443867,
+    "balances": true
+  },
+  "checks": [
+    {
+      "check": "store: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store: id format STORE-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.store_name: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.city: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.region: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.region: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.store_format: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.store_format: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.sales_area_sqm: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store.opened_date: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku: id format SKU-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.sku_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.sku_name: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.category: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.category: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.brand: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.pack_size: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.unit_cost_inr: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.unit_price_inr: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.is_perishable: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.is_perishable: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.shrink_risk: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku.shrink_risk: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store_sku: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store_sku.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store_sku.sku_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store_sku.opening_qty: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store_sku.opening_date: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store_sku.closing_book_qty: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store_sku.store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "store_sku.sku_id -> sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "role: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "role: id format ROLE-\\d{2}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "role.role_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "role.role_name: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "role.role_name: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "role.can_post_adjustments: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "role.can_post_adjustments: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee: id format EMP-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee.employee_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee.first_name: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee.last_name: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee.hire_date: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee.store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee_role: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee_role.employee_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee_role.role_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee_role.effective_from: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee_role.employee_id -> employee: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee_role.role_id -> role: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift: id format SHF-\\d{4}-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift.shift_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift.shift_date: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift.shift_type: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift.shift_type: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift.start_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift.end_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift.store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift_assignment: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift_assignment.shift_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift_assignment.employee_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift_assignment.role_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift_assignment.shift_id -> shift: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift_assignment.employee_id -> employee: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift_assignment.role_id -> role: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion: id format PRM-\\d{4}-\\d{4}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion.promotion_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion.promotion_name: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion.start_date: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion.end_date: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion.discount_pct: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion.discount_pct: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion_sku: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion_sku.promotion_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion_sku.sku_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion_sku.promotion_id -> promotion: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion_sku.sku_id -> sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer: id format TRF-\\d{4}-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.transfer_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.sku_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.from_store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.to_store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.quantity: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.shipped_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.received_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.status: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.status: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.sku_id -> sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.from_store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer.to_store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement: id format MOV-\\d{4}-\\d{8}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.movement_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.movement_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.sku_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.movement_type: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.movement_type: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.quantity: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.unit_cost_inr: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.reason_code: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.employee_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.shift_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.sku_id -> sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.store_id+sku_id -> store_sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.employee_id -> employee: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.shift_id -> shift: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.transfer_id -> transfer: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.counterparty_store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.promotion_id -> promotion: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.return_id -> customer_return: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "inventory_movement.count_id -> cycle_count: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return: id format RET-\\d{4}-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.return_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.original_sale_movement_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.sku_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.quantity: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.return_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.return_reason: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.return_reason: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.item_condition: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.item_condition: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.refund_amount_inr: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.original_sale_movement_id -> inventory_movement: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "customer_return.sku_id -> sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count: id format CNT-\\d{4}-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.count_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.sku_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.system_qty_as_of_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.count_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.expected_qty: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.counted_qty: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.variance_qty: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.variance_value_inr: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.employee_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.shift_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.sku_id -> sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.store_id+sku_id -> store_sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.employee_id -> employee: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count.shift_id -> shift: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert: id format SHR-\\d{4}-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.alert_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.alert_type: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.alert_type: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.classification: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.classification: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.first_evidence_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.last_evidence_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.detected_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.loss_units: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.loss_value_inr: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.risk_score: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.severity: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.severity: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.reason_text: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.sku_id -> sku: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.employee_id -> employee: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.role_id -> role: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shrinkage_alert.shift_id -> shift: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "alert_evidence: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "alert_evidence.alert_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "alert_evidence.evidence_type: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "alert_evidence.evidence_type: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "alert_evidence.evidence_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "alert_evidence.alert_id -> shrinkage_alert: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation: primary key unique",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation: id format INV-\\d{4}-\\d{6}",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.investigation_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.alert_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.store_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.assigned_employee_id: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.investigation_type: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.investigation_type: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.priority: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.priority: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.status: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.status: allowed values",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.opened_ts: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.recommended_action: required",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.alert_id -> shrinkage_alert: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.store_id -> store: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "investigation.assigned_employee_id -> employee: foreign key",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "shift: end = start + 8h",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "promotion: end_date >= start_date",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer: received after shipped",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "transfer: two different stores",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "employee: hired on/after store opened",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "movement: timestamp inside its shift",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count: book time inside its shift",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "return: original movement is a SALE",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "return: after the sale",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "return: same store and SKU as the sale",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "return: qty between 1 and units sold",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "movement: quantity sign matches type",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "movement: reason only on adjustments",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "movement: unit cost matches SKU",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "movement: no duplicate rows (all fields except id)",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "sku: price above cost",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count: variance = counted - expected",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count: variance value = variance x cost",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count: counted_qty >= 0",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "return: refund = qty x price x (1 - discount)",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "cycle_count: every variance posted once as COUNT_VARIANCE",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "stock equation: expected_qty = opening + movements up to book time",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": "opening + receipts - sales + transfers in - transfers out + adjustments + returns"
+    },
+    {
+      "check": "stock: running balance never negative",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "stock equation: closing = opening + all movements",
+      "category": "integrity",
+      "status": "PASS",
+      "failing_rows": 0,
+      "detail": ""
+    },
+    {
+      "check": "movement store = its shift's store",
+      "category": "business_rule",
+      "status": "FLAGGED",
+      "failing_rows": 12,
+      "detail": ""
+    },
+    {
+      "check": "adjustment has a reason",
+      "category": "business_rule",
+      "status": "FLAGGED",
+      "failing_rows": 12,
+      "detail": ""
+    },
+    {
+      "check": "count_ts not before system_qty_as_of_ts",
+      "category": "business_rule",
+      "status": "FLAGGED",
+      "failing_rows": 12,
+      "detail": ""
+    },
+    {
+      "check": "transfer written off at most once",
+      "category": "business_rule",
+      "status": "FLAGGED",
+      "failing_rows": 5,
+      "detail": ""
+    }
+  ],
+  "sqlite_foreign_key_violations": 0
+}

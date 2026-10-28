@@ -1,0 +1,20 @@
+# Secrets: every .env file anywhere stays local. Only the .env.example templates are committed.
+.env
+.env.*
+!.env.example
+
+# Python / Node environments and build output
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+
+# Generated data: 100s of MB; rebuild with `python -m app.pipeline.run --size full`. A small sample is in sample_output/.
+backend/output/
+
+# LLM answer cache (regenerated on demand) and local editor/agent settings
+backend/llm_cache/alert_narratives.json
+.claude/

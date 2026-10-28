@@ -1,0 +1,6 @@
+store_id,store_name,city,region,store_format,sales_area_sqm,opened_date
+STORE-000001,Jaipur Supermarket 001,Jaipur,North,SUPERMARKET,2783,2022-11-03
+STORE-000002,Jaipur Hypermarket 002,Jaipur,North,HYPERMARKET,4957,2023-11-25
+STORE-000003,Vadodara Supermarket 003,Vadodara,West,SUPERMARKET,2274,2022-12-08
+STORE-000004,Delhi Express 004,Delhi,North,EXPRESS,658,2019-03-28
+STORE-000005,Mysuru Supermarket 005,Mysuru,South,SUPERMARKET,2990,2020-07-03

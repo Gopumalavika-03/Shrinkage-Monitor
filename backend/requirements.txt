@@ -1,0 +1,9 @@
+# Pinned so the same seed gives byte-identical files (float/CSV formatting can change between versions).
+numpy==2.4.6
+pandas==3.0.3
+fastapi==0.115.0
+uvicorn==0.30.0
+psycopg2-binary==2.9.10   # Postgres / Supabase (only used when DATABASE_URL is set)
+# tests
+pytest==8.3.0
+httpx==0.27.0

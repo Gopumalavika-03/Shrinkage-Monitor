@@ -1,0 +1,201 @@
+sku_id,sku_name,category,brand,pack_size,unit_cost_inr,unit_price_inr,is_perishable,shrink_risk
+SKU-000001,CleanPro Lemon Garbage Bags 30 pcs,Household,CleanPro,30 pcs,96.89,131.0,0,LOW
+SKU-000002,UrbanMan Herbal Hair Oil 100 ml,Personal Care,UrbanMan,100 ml,99.82,163.0,0,HIGH
+SKU-000003,Gokul Dairy Toned Butter 200 g,Dairy,Gokul Dairy,200 g,88.34,128.0,1,MEDIUM
+SKU-000004,Urban Loom Black Cap kids,Apparel Basics,Urban Loom,kids,336.55,432.0,0,HIGH
+SKU-000005,VitaLife Kids Pain Relief Balm 8 g,Health & Pharmacy,VitaLife,8 g,59.04,79.0,0,MEDIUM
+SKU-000006,MilkyWay Farms Toned Ghee 1 L,Dairy,MilkyWay Farms,1 L,465.73,615.0,1,MEDIUM
+SKU-000007,CareWell Regular Bandages 10 pcs,Health & Pharmacy,CareWell,10 pcs,42.6,67.0,0,MEDIUM
+SKU-000008,Nandi Pure Toned Ghee 200 ml,Dairy,Nandi Pure,200 ml,577.57,798.0,1,MEDIUM
+SKU-000009,StepIn White Cap kids,Apparel Basics,StepIn,kids,372.06,583.0,0,HIGH
+SKU-000010,GreenLeaf Value Carrots 2 kg,Fresh Produce,GreenLeaf,2 kg,83.52,134.0,1,MEDIUM
+SKU-000011,MilkyWay Farms Organic Buttermilk 1 L,Dairy,MilkyWay Farms,1 L,50.43,65.0,1,MEDIUM
+SKU-000012,FarmFirst Value Potatoes 5 kg,Fresh Produce,FarmFirst,5 kg,50.51,77.0,1,MEDIUM
+SKU-000013,Orchard Lane Regular Spinach 500 g,Fresh Produce,Orchard Lane,500 g,35.3,48.0,1,MEDIUM
+SKU-000014,GlowUp Travel Shampoo 180 ml,Personal Care,GlowUp,180 ml,180.4,286.0,0,HIGH
+SKU-000015,BakeHouse Whole Wheat Rusk 200 g,Bakery,BakeHouse,200 g,44.11,62.0,1,LOW
+SKU-000016,Fizzup Original Instant Coffee 50 g,Beverages,Fizzup,50 g,191.28,259.0,0,MEDIUM
+SKU-000017,PlugPoint Lite Power Bank 20000 mAh,Electronics Accessories,PlugPoint,20000 mAh,2156.06,3085.0,0,HIGH
+SKU-000018,Kisan Fresh Regular Onions 2 kg,Fresh Produce,Kisan Fresh,2 kg,42.26,63.0,1,MEDIUM
+SKU-000019,Crunchies Cream & Onion Trail Mix 300 g,Snacks,Crunchies,300 g,319.42,401.0,0,MEDIUM
+SKU-000020,Chatpata Party Pack Nachos 60 g,Snacks,Chatpata,60 g,51.91,73.0,0,MEDIUM
+SKU-000021,Harvest Hill Organic Apples 1 kg,Fresh Produce,Harvest Hill,1 kg,195.65,306.0,1,MEDIUM
+SKU-000022,Ayur Leaf Sugar Free Hand Sanitizer 200 ml,Health & Pharmacy,Ayur Leaf,200 ml,142.26,186.0,0,MEDIUM
+SKU-000023,Harvest Hill Value Spinach 1 bunch,Fresh Produce,Harvest Hill,1 bunch,52.22,70.0,1,MEDIUM
+SKU-000024,BakeHouse Multigrain Croissant 1 pc,Bakery,BakeHouse,1 pc,54.6,75.0,1,LOW
+SKU-000025,Bean Route Original Instant Coffee 200 g,Beverages,Bean Route,200 g,404.28,544.0,0,MEDIUM
+SKU-000026,Daily Greens Premium Bananas 6 pcs,Fresh Produce,Daily Greens,6 pcs,58.81,74.0,1,MEDIUM
+SKU-000027,Bean Route Lemon Mango Drink 1.2 L,Beverages,Bean Route,1.2 L,66.63,85.0,0,MEDIUM
+SKU-000028,CleanPro Lemon Dishwash Liquid 1 L,Household,CleanPro,1 L,210.93,274.0,0,LOW
+SKU-000029,AquaPure Family Pack Tea Powder 1 kg,Beverages,AquaPure,1 kg,295.13,468.0,0,MEDIUM
+SKU-000030,Velvet Travel Sunscreen 100 ml,Personal Care,Velvet,100 ml,643.38,815.0,0,HIGH
+SKU-000031,GlowUp Sensitive Lip Balm 4.5 g,Personal Care,GlowUp,4.5 g,96.56,144.0,0,HIGH
+SKU-000032,AquaPure Original Green Tea 100 bags,Beverages,AquaPure,100 bags,263.03,379.0,0,MEDIUM
+SKU-000033,Nandi Pure Full Cream Butter 500 g,Dairy,Nandi Pure,500 g,77.89,106.0,1,MEDIUM
+SKU-000034,VitaLife Kids Multivitamin Tablets 90 tabs,Health & Pharmacy,VitaLife,90 tabs,783.45,1027.0,0,MEDIUM
+SKU-000035,Crunchies Cream & Onion Chocolate Bar 100 g,Snacks,Crunchies,100 g,73.22,104.0,0,MEDIUM
+SKU-000036,MediPlus Sugar Free Bandages 10 pcs,Health & Pharmacy,MediPlus,10 pcs,57.45,95.0,0,MEDIUM
+SKU-000037,Namkeen Nation Party Pack Bhujia 200 g,Snacks,Namkeen Nation,200 g,45.9,69.0,0,MEDIUM
+SKU-000038,HealFast Extra Strength Multivitamin Tablets 60 tabs,Health & Pharmacy,HealFast,60 tabs,456.65,755.0,0,MEDIUM
+SKU-000039,Gokul Dairy Low Fat Fresh Cream 200 ml,Dairy,Gokul Dairy,200 ml,58.8,87.0,1,MEDIUM
+SKU-000040,Nexo Standard Power Bank 20000 mAh,Electronics Accessories,Nexo,20000 mAh,1696.18,2163.0,0,HIGH
+SKU-000041,MilkyWay Farms Organic Cheese Slices 200 g,Dairy,MilkyWay Farms,200 g,145.98,201.0,1,MEDIUM
+SKU-000042,SoundBay Pro Wall Charger 65 W,Electronics Accessories,SoundBay,65 W,1233.26,1879.0,0,HIGH
+SKU-000043,BakeHouse Whole Wheat Cookies 150 g,Bakery,BakeHouse,150 g,61.29,101.0,1,LOW
+SKU-000044,Bean Route Original Energy Drink 500 ml,Beverages,Bean Route,500 ml,181.93,233.0,0,MEDIUM
+SKU-000045,Harvest Hill Value Potatoes 1 kg,Fresh Produce,Harvest Hill,1 kg,30.46,47.0,1,MEDIUM
+SKU-000046,Sparkle Regular Garbage Bags 15 pcs,Household,Sparkle,15 pcs,53.96,88.0,0,LOW
+SKU-000047,Fizzup Original Soda Water 750 ml,Beverages,Fizzup,750 ml,31.24,44.0,0,MEDIUM
+SKU-000048,Amrut Valley Low Fat Curd 1 kg,Dairy,Amrut Valley,1 kg,71.87,98.0,1,MEDIUM
+SKU-000049,FarmFirst Value Apples 4 pcs,Fresh Produce,FarmFirst,4 pcs,324.97,525.0,1,MEDIUM
+SKU-000050,Oven Story Whole Wheat Croissant 4 pcs,Bakery,Oven Story,4 pcs,114.81,173.0,1,LOW
+SKU-000051,Cotton Club White Briefs L,Apparel Basics,Cotton Club,L,465.48,599.0,0,HIGH
+SKU-000052,Amrut Valley Organic Paneer 1 kg,Dairy,Amrut Valley,1 kg,231.33,331.0,1,MEDIUM
+SKU-000053,FarmFirst Value Potatoes 2 kg,Fresh Produce,FarmFirst,2 kg,59.04,74.0,1,MEDIUM
+SKU-000054,VitaLife Kids ORS Sachets 10 pcs,Health & Pharmacy,VitaLife,10 pcs,47.66,71.0,0,MEDIUM
+SKU-000055,Crunchies Cream & Onion Trail Mix 150 g,Snacks,Crunchies,150 g,125.15,199.0,0,MEDIUM
+SKU-000056,Oven Story Classic Buns 12 pcs,Bakery,Oven Story,12 pcs,55.19,70.0,1,LOW
+SKU-000057,Daily Greens Regular Carrots 2 kg,Fresh Produce,Daily Greens,2 kg,69.89,91.0,1,MEDIUM
+SKU-000058,Golden Crust Whole Wheat Croissant 4 pcs,Bakery,Golden Crust,4 pcs,109.46,161.0,1,LOW
+SKU-000059,GlowUp Herbal Toothpaste 150 g,Personal Care,GlowUp,150 g,130.33,166.0,0,HIGH
+SKU-000060,SoundBay Lite Power Bank 5000 mAh,Electronics Accessories,SoundBay,5000 mAh,2683.56,3363.0,0,HIGH
+SKU-000061,PlugPoint Lite Wall Charger 20 W,Electronics Accessories,PlugPoint,20 W,793.21,1149.0,0,HIGH
+SKU-000062,HomeCare Lavender Garbage Bags 15 pcs,Household,HomeCare,15 pcs,57.36,85.0,0,LOW
+SKU-000063,Bean Route Zero Sugar Soda Water 750 ml,Beverages,Bean Route,750 ml,27.29,45.0,0,MEDIUM
+SKU-000064,VoltEdge Standard AA Batteries 4 pcs,Electronics Accessories,VoltEdge,4 pcs,162.09,220.0,0,HIGH
+SKU-000065,Herbal Roots Regular Sunscreen 100 ml,Personal Care,Herbal Roots,100 ml,403.81,667.0,0,HIGH
+SKU-000066,ChargeUp Standard Power Bank 5000 mAh,Electronics Accessories,ChargeUp,5000 mAh,2068.25,2800.0,0,HIGH
+SKU-000067,GreenLeaf Value Grapes 500 g,Fresh Produce,GreenLeaf,500 g,110.65,139.0,1,MEDIUM
+SKU-000068,Munch Box Classic Salted Popcorn 3 x 70 g,Snacks,Munch Box,3 x 70 g,65.71,96.0,0,MEDIUM
+SKU-000069,SnackSmith Cream & Onion Nachos 60 g,Snacks,SnackSmith,60 g,42.93,64.0,0,MEDIUM
+SKU-000070,Brewster Lemon Mineral Water 1 L,Beverages,Brewster,1 L,32.2,42.0,0,MEDIUM
+SKU-000071,SoundBay Lite Phone Case rugged,Electronics Accessories,SoundBay,rugged,535.25,702.0,0,HIGH
+SKU-000072,MilkyWay Farms Toned Cheese Slices 400 g,Dairy,MilkyWay Farms,400 g,193.38,262.0,1,MEDIUM
+SKU-000073,Nexo Standard Power Bank 5000 mAh,Electronics Accessories,Nexo,5000 mAh,2038.03,2797.0,0,HIGH
+SKU-000074,Chatpata Masala Popcorn 150 g,Snacks,Chatpata,150 g,68.11,96.0,0,MEDIUM
+SKU-000075,CoolSip Zero Sugar Coconut Water 1 L,Beverages,CoolSip,1 L,65.97,93.0,0,MEDIUM
+SKU-000076,Chatpata Party Pack Peanuts 200 g,Snacks,Chatpata,200 g,65.39,92.0,0,MEDIUM
+SKU-000077,Munch Box Cream & Onion Bhujia 1 kg,Snacks,Munch Box,1 kg,126.65,159.0,0,MEDIUM
+SKU-000078,Namkeen Nation Party Pack Peanuts 200 g,Snacks,Namkeen Nation,200 g,53.22,81.0,0,MEDIUM
+SKU-000079,ChargeUp Lite Phone Case rugged,Electronics Accessories,ChargeUp,rugged,557.02,743.0,0,HIGH
+SKU-000080,Orchard Lane Regular Spinach 250 g,Fresh Produce,Orchard Lane,250 g,17.06,26.0,1,MEDIUM
+SKU-000081,FarmFirst Regular Onions 1 kg,Fresh Produce,FarmFirst,1 kg,25.34,34.0,1,MEDIUM
+SKU-000082,ShineMax Refill Tissue Roll 2 rolls,Household,ShineMax,2 rolls,59.76,77.0,0,LOW
+SKU-000083,HealFast Sugar Free ORS Sachets 5 pcs,Health & Pharmacy,HealFast,5 pcs,41.86,59.0,0,MEDIUM
+SKU-000084,Nandi Pure Low Fat Yogurt Cup 400 g,Dairy,Nandi Pure,400 g,68.0,99.0,1,MEDIUM
+SKU-000085,Oven Story Whole Wheat Pav 24 pcs,Bakery,Oven Story,24 pcs,58.02,77.0,1,LOW
+SKU-000086,Bean Route Original Coconut Water 1 L,Beverages,Bean Route,1 L,57.03,73.0,0,MEDIUM
+SKU-000087,Chatpata Cream & Onion Protein Bar 1 bar,Snacks,Chatpata,1 bar,84.36,109.0,0,MEDIUM
+SKU-000088,GlowUp Sensitive Razor Cartridges 2 pcs,Personal Care,GlowUp,2 pcs,320.91,481.0,0,HIGH
+SKU-000089,AquaPure Lemon Mineral Water 500 ml,Beverages,AquaPure,500 ml,23.02,30.0,0,MEDIUM
+SKU-000090,Daily Bread Co Whole Wheat Buns 6 pcs,Bakery,Daily Bread Co,6 pcs,32.54,51.0,1,LOW
+SKU-000091,PureSkin Herbal Shampoo 340 ml,Personal Care,PureSkin,340 ml,198.79,303.0,0,HIGH
+SKU-000092,UrbanMan Regular Deodorant 150 ml,Personal Care,UrbanMan,150 ml,157.1,210.0,0,HIGH
+SKU-000093,Basix Navy Shorts XL,Apparel Basics,Basix,XL,1005.13,1336.0,0,HIGH
+SKU-000094,Gokul Dairy Low Fat Paneer 200 g,Dairy,Gokul Dairy,200 g,77.95,118.0,1,MEDIUM
+SKU-000095,CleanPro Refill Scrub Pad 6 pcs,Household,CleanPro,6 pcs,68.83,103.0,0,LOW
+SKU-000096,Gokul Dairy Full Cream Paneer 1 kg,Dairy,Gokul Dairy,1 kg,135.01,183.0,1,MEDIUM
+SKU-000097,Crumbs & Co Eggless Buns 6 pcs,Bakery,Crumbs & Co,6 pcs,35.09,57.0,1,LOW
+SKU-000098,Orchard Lane Value Mangoes 1 kg,Fresh Produce,Orchard Lane,1 kg,138.31,192.0,1,MEDIUM
+SKU-000099,Orchard Lane Value Bananas 6 pcs,Fresh Produce,Orchard Lane,6 pcs,39.72,60.0,1,MEDIUM
+SKU-000100,MediPlus Sugar Free Thermometer infrared,Health & Pharmacy,MediPlus,infrared,474.05,745.0,0,MEDIUM
+SKU-000101,Crunchies Masala Biscuits 100 g,Snacks,Crunchies,100 g,27.0,37.0,0,MEDIUM
+SKU-000102,Cotton Club Navy Cap kids,Apparel Basics,Cotton Club,kids,533.89,699.0,0,HIGH
+SKU-000103,GlowUp Sensitive Toothpaste 150 g,Personal Care,GlowUp,150 g,112.72,179.0,0,HIGH
+SKU-000104,Nexo Pro USB-C Cable 1 m,Electronics Accessories,Nexo,1 m,249.13,322.0,0,HIGH
+SKU-000105,Amrut Valley Toned Yogurt Cup 4 x 100 g,Dairy,Amrut Valley,4 x 100 g,37.56,54.0,1,MEDIUM
+SKU-000106,SoundBay Max Bluetooth Speaker mini,Electronics Accessories,SoundBay,mini,1601.5,2158.0,0,HIGH
+SKU-000107,Nexo Lite Pen Drive 64 GB,Electronics Accessories,Nexo,64 GB,591.71,982.0,0,HIGH
+SKU-000108,Sparkle Lavender Glass Cleaner 1 L,Household,Sparkle,1 L,173.82,263.0,0,LOW
+SKU-000109,CareWell Regular Protein Powder 2 kg,Health & Pharmacy,CareWell,2 kg,2223.16,3701.0,0,MEDIUM
+SKU-000110,Basix White Cap kids,Apparel Basics,Basix,kids,364.74,510.0,0,HIGH
+SKU-000111,Nexo Lite Earphones neckband,Electronics Accessories,Nexo,neckband,1266.22,1671.0,0,HIGH
+SKU-000112,PureSkin Herbal Razor Cartridges 8 pcs,Personal Care,PureSkin,8 pcs,641.39,963.0,0,HIGH
+SKU-000113,Gokul Dairy Low Fat Curd 400 g,Dairy,Gokul Dairy,400 g,40.71,55.0,1,MEDIUM
+SKU-000114,Kisan Fresh Value Spinach 250 g,Fresh Produce,Kisan Fresh,250 g,25.62,34.0,1,MEDIUM
+SKU-000115,CreamCrest Full Cream Milk 500 ml,Dairy,CreamCrest,500 ml,17.14,27.0,1,MEDIUM
+SKU-000116,ChargeUp Standard AA Batteries 2 pcs,Electronics Accessories,ChargeUp,2 pcs,89.4,139.0,0,HIGH
+SKU-000117,CareWell Sugar Free Bandages 50 pcs,Health & Pharmacy,CareWell,50 pcs,149.39,199.0,0,MEDIUM
+SKU-000118,MediPlus Extra Strength Face Masks 5 pcs,Health & Pharmacy,MediPlus,5 pcs,125.88,194.0,0,MEDIUM
+SKU-000119,PlugPoint Standard USB-C Cable 2 m,Electronics Accessories,PlugPoint,2 m,425.37,673.0,0,HIGH
+SKU-000120,FreshNest Lavender Fabric Softener 860 ml,Household,FreshNest,860 ml,240.0,325.0,0,LOW
+SKU-000121,Bean Route Original Mango Drink 200 ml,Beverages,Bean Route,200 ml,23.19,38.0,0,MEDIUM
+SKU-000122,Ayur Leaf Extra Strength Multivitamin Tablets 90 tabs,Health & Pharmacy,Ayur Leaf,90 tabs,684.31,1061.0,0,MEDIUM
+SKU-000123,Tea Valley Zero Sugar Orange Juice 1 L,Beverages,Tea Valley,1 L,147.21,205.0,0,MEDIUM
+SKU-000124,Gokul Dairy Low Fat Buttermilk 500 ml,Dairy,Gokul Dairy,500 ml,22.58,37.0,1,MEDIUM
+SKU-000125,Orchard Lane Value Grapes 500 g,Fresh Produce,Orchard Lane,500 g,92.7,119.0,1,MEDIUM
+SKU-000126,CoolSip Family Pack Tea Powder 250 g,Beverages,CoolSip,250 g,206.54,263.0,0,MEDIUM
+SKU-000127,Rise Bakery Classic Muffins 2 pcs,Bakery,Rise Bakery,2 pcs,61.58,79.0,1,LOW
+SKU-000128,Fizzup Original Green Tea 50 bags,Beverages,Fizzup,50 bags,170.36,241.0,0,MEDIUM
+SKU-000129,NatureCure Sugar Free Bandages 50 pcs,Health & Pharmacy,NatureCure,50 pcs,132.19,207.0,0,MEDIUM
+SKU-000130,Tea Valley Family Pack Mango Drink 600 ml,Beverages,Tea Valley,600 ml,50.49,78.0,0,MEDIUM
+SKU-000131,Tea Valley Family Pack Green Tea 100 bags,Beverages,Tea Valley,100 bags,300.31,488.0,0,MEDIUM
+SKU-000132,VitaLife Extra Strength Face Masks 5 pcs,Health & Pharmacy,VitaLife,5 pcs,139.18,182.0,0,MEDIUM
+SKU-000133,CreamCrest Low Fat Yogurt Cup 100 g,Dairy,CreamCrest,100 g,30.93,48.0,1,MEDIUM
+SKU-000134,Golden Crust Multigrain Croissant 2 pcs,Bakery,Golden Crust,2 pcs,69.46,106.0,1,LOW
+SKU-000135,Amrut Valley Organic Flavoured Milk 180 ml,Dairy,Amrut Valley,180 ml,31.23,43.0,1,MEDIUM
+SKU-000136,Nexo Pro Pen Drive 32 GB,Electronics Accessories,Nexo,32 GB,395.12,559.0,0,HIGH
+SKU-000137,Silk & Co Herbal Razor Cartridges 4 pcs,Personal Care,Silk & Co,4 pcs,650.68,920.0,0,HIGH
+SKU-000138,Nandi Pure Low Fat Milk 500 ml,Dairy,Nandi Pure,500 ml,31.01,41.0,1,MEDIUM
+SKU-000139,Namkeen Nation Cream & Onion Biscuits 600 g,Snacks,Namkeen Nation,600 g,48.97,74.0,0,MEDIUM
+SKU-000140,NatureCure Regular Hand Sanitizer 500 ml,Health & Pharmacy,NatureCure,500 ml,124.01,192.0,0,MEDIUM
+SKU-000141,Urban Loom Grey Slippers 9,Apparel Basics,Urban Loom,9,675.33,1112.0,0,HIGH
+SKU-000142,GreenLeaf Organic Mangoes 1 kg,Fresh Produce,GreenLeaf,1 kg,119.14,156.0,1,MEDIUM
+SKU-000143,Harvest Hill Regular Cucumbers 500 g,Fresh Produce,Harvest Hill,500 g,26.54,34.0,1,MEDIUM
+SKU-000144,Rise Bakery Multigrain Plum Cake 500 g,Bakery,Rise Bakery,500 g,210.47,315.0,1,LOW
+SKU-000145,Velvet Travel Hair Oil 100 ml,Personal Care,Velvet,100 ml,137.22,184.0,0,HIGH
+SKU-000146,FarmFirst Regular Grapes 1 kg,Fresh Produce,FarmFirst,1 kg,119.3,151.0,1,MEDIUM
+SKU-000147,Oven Story Multigrain Buns 12 pcs,Bakery,Oven Story,12 pcs,57.15,82.0,1,LOW
+SKU-000148,Nexo Pro Earphones wireless,Electronics Accessories,Nexo,wireless,760.68,1191.0,0,HIGH
+SKU-000149,Velvet Travel Shampoo 180 ml,Personal Care,Velvet,180 ml,190.57,280.0,0,HIGH
+SKU-000150,CoolSip Original Orange Juice 2 L,Beverages,CoolSip,2 L,197.49,248.0,0,MEDIUM
+SKU-000151,Bean Route Family Pack Soda Water 300 ml,Beverages,Bean Route,300 ml,24.72,39.0,0,MEDIUM
+SKU-000152,Golden Crust Classic Cookies 500 g,Bakery,Golden Crust,500 g,119.23,185.0,1,LOW
+SKU-000153,Velvet Sensitive Shampoo 340 ml,Personal Care,Velvet,340 ml,256.92,408.0,0,HIGH
+SKU-000154,BakeHouse Multigrain Buns 12 pcs,Bakery,BakeHouse,12 pcs,73.76,97.0,1,LOW
+SKU-000155,Brewster Original Orange Juice 1 L,Beverages,Brewster,1 L,129.66,210.0,0,MEDIUM
+SKU-000156,AquaPure Lemon Energy Drink 250 ml,Beverages,AquaPure,250 ml,113.8,186.0,0,MEDIUM
+SKU-000157,FarmFirst Value Grapes 1 kg,Fresh Produce,FarmFirst,1 kg,139.53,194.0,1,MEDIUM
+SKU-000158,Kisan Fresh Premium Carrots 2 kg,Fresh Produce,Kisan Fresh,2 kg,102.04,128.0,1,MEDIUM
+SKU-000159,AquaPure Family Pack Mango Drink 200 ml,Beverages,AquaPure,200 ml,29.36,46.0,0,MEDIUM
+SKU-000160,Gokul Dairy Toned Paneer 1 kg,Dairy,Gokul Dairy,1 kg,184.87,280.0,1,MEDIUM
+SKU-000161,Daily Bread Co Classic Garlic Bread 400 g,Bakery,Daily Bread Co,400 g,94.3,125.0,1,LOW
+SKU-000162,SnackSmith Classic Salted Biscuits 600 g,Snacks,SnackSmith,600 g,42.34,59.0,0,MEDIUM
+SKU-000163,Nexo Max USB-C Cable 1 m,Electronics Accessories,Nexo,1 m,263.63,387.0,0,HIGH
+SKU-000164,Gokul Dairy Full Cream Butter 200 g,Dairy,Gokul Dairy,200 g,86.55,140.0,1,MEDIUM
+SKU-000165,HomeCare Refill Tissue Roll 10 rolls,Household,HomeCare,10 rolls,145.79,205.0,0,LOW
+SKU-000166,Velvet Regular Body Lotion 100 ml,Personal Care,Velvet,100 ml,194.35,255.0,0,HIGH
+SKU-000167,Daily Greens Value Onions 5 kg,Fresh Produce,Daily Greens,5 kg,82.36,105.0,1,MEDIUM
+SKU-000168,Urban Loom Black T-Shirt XL,Apparel Basics,Urban Loom,XL,669.97,948.0,0,HIGH
+SKU-000169,Herbal Roots Regular Sunscreen 200 ml,Personal Care,Herbal Roots,200 ml,540.6,724.0,0,HIGH
+SKU-000170,Harvest Hill Regular Apples 4 pcs,Fresh Produce,Harvest Hill,4 pcs,341.45,433.0,1,MEDIUM
+SKU-000171,Sparkle Regular Glass Cleaner 1 L,Household,Sparkle,1 L,140.34,186.0,0,LOW
+SKU-000172,Basix White Belt 32,Apparel Basics,Basix,32,381.83,528.0,0,HIGH
+SKU-000173,Daily Greens Organic Tomatoes 2 kg,Fresh Produce,Daily Greens,2 kg,62.82,98.0,1,MEDIUM
+SKU-000174,Kisan Fresh Organic Tomatoes 2 kg,Fresh Produce,Kisan Fresh,2 kg,72.55,106.0,1,MEDIUM
+SKU-000175,CreamCrest Full Cream Curd 1 kg,Dairy,CreamCrest,1 kg,63.6,85.0,1,MEDIUM
+SKU-000176,Tasty Trail Cream & Onion Peanuts 1 kg,Snacks,Tasty Trail,1 kg,98.55,140.0,0,MEDIUM
+SKU-000177,Cotton Club Black Briefs M,Apparel Basics,Cotton Club,M,213.68,278.0,0,HIGH
+SKU-000178,Ayur Leaf Kids Hand Sanitizer 100 ml,Health & Pharmacy,Ayur Leaf,100 ml,70.14,112.0,0,MEDIUM
+SKU-000179,MilkyWay Farms Full Cream Ghee 500 ml,Dairy,MilkyWay Farms,500 ml,235.42,368.0,1,MEDIUM
+SKU-000180,UrbanMan Sensitive Toothpaste 2 x 150 g,Personal Care,UrbanMan,2 x 150 g,178.8,257.0,0,HIGH
+SKU-000181,CleanPro Refill Detergent Powder 500 g,Household,CleanPro,500 g,116.2,172.0,0,LOW
+SKU-000182,CoolSip Original Energy Drink 4 x 250 ml,Beverages,CoolSip,4 x 250 ml,181.8,271.0,0,MEDIUM
+SKU-000183,Gokul Dairy Toned Buttermilk 200 ml,Dairy,Gokul Dairy,200 ml,16.85,22.0,1,MEDIUM
+SKU-000184,PlugPoint Lite USB-C Cable 1.5 m,Electronics Accessories,PlugPoint,1.5 m,408.64,620.0,0,HIGH
+SKU-000185,Daily Greens Premium Cucumbers 3 pcs,Fresh Produce,Daily Greens,3 pcs,67.48,90.0,1,MEDIUM
+SKU-000186,Sparkle Refill Glass Cleaner 1 L,Household,Sparkle,1 L,197.68,253.0,0,LOW
+SKU-000187,Crunchies Classic Salted Bhujia 400 g,Snacks,Crunchies,400 g,68.52,103.0,0,MEDIUM
+SKU-000188,Sunrise Dairy Low Fat Fresh Cream 1 L,Dairy,Sunrise Dairy,1 L,142.62,199.0,1,MEDIUM
+SKU-000189,Amrut Valley Organic Ghee 200 ml,Dairy,Amrut Valley,200 ml,752.49,1089.0,1,MEDIUM
+SKU-000190,Sparkle Refill Garbage Bags 15 pcs,Household,Sparkle,15 pcs,62.31,96.0,0,LOW
+SKU-000191,CareWell Regular Thermometer flexible tip,Health & Pharmacy,CareWell,flexible tip,481.11,663.0,0,MEDIUM
+SKU-000192,CoolSip Zero Sugar Cola 300 ml,Beverages,CoolSip,300 ml,25.58,40.0,0,MEDIUM
+SKU-000193,MediPlus Regular Hand Sanitizer 100 ml,Health & Pharmacy,MediPlus,100 ml,53.49,82.0,0,MEDIUM
+SKU-000194,FarmFirst Organic Bananas 1 kg,Fresh Produce,FarmFirst,1 kg,90.41,137.0,1,MEDIUM
+SKU-000195,Crunchies Classic Salted Nachos 300 g,Snacks,Crunchies,300 g,78.46,130.0,0,MEDIUM
+SKU-000196,AquaPure Lemon Soda Water 1.5 L,Beverages,AquaPure,1.5 L,54.42,78.0,0,MEDIUM
+SKU-000197,Rise Bakery Multigrain Buns 4 pcs,Bakery,Rise Bakery,4 pcs,31.86,41.0,1,LOW
+SKU-000198,GreenLeaf Premium Cucumbers 3 pcs,Fresh Produce,GreenLeaf,3 pcs,45.79,76.0,1,MEDIUM
+SKU-000199,FarmFirst Premium Mangoes 1 kg,Fresh Produce,FarmFirst,1 kg,122.79,180.0,1,MEDIUM
+SKU-000200,Oven Story Classic Cookies 500 g,Bakery,Oven Story,500 g,155.26,211.0,1,LOW

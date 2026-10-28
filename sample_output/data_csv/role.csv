@@ -1,0 +1,5 @@
+role_id,role_name,can_post_adjustments
+ROLE-01,Cashier,0
+ROLE-02,Stock Associate,1
+ROLE-03,Shift Supervisor,1
+ROLE-04,Store Manager,1
